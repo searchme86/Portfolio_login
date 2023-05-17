@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-login",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": "true",
+  "devDependencies": {
+    "lerna": "^6.6.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+   "scripts": {
+    "start": "lerna run --parallel start"
+  }
+}
