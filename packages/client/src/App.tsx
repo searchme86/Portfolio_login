@@ -1,5 +1,5 @@
 import React from 'react';
-import { QueryPayload } from '../../server/server';
+import { QueryPayload } from '../../server/src/server';
 
 function App() {
   return (
