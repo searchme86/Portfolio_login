@@ -40,7 +40,10 @@
     ]
   },
   "devDependencies": {
-    "typescript": "^5.0.4"
+    "@hookform/resolvers": "^3.1.0",
+    "react-hook-form": "^7.43.9",
+    "typescript": "^5.0.4",
+    "zod": "^3.21.4"
   },
   "proxy": "http://localhost:3001"
 }
