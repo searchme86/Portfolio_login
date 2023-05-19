@@ -15,6 +15,8 @@ const proxyOptions = {
 };
 const customProxy = createProxyMiddleware(proxyOptions);
 
+console.log('HELLO WORLD');
+
 app.get('/data', customProxy, (req: Request, res: Response) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   const data: QueryPayload = { foo: 'bar' };
