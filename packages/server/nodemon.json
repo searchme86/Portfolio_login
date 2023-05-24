@@ -1,6 +1,6 @@
 {
-  "ignore": [".git", "node_modules", "dist"],
-  "watch": ["./src"],
-  "exec": "npm start",
-  "ext": "ts"
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["src/**/*.spec.ts", "src/public/*"],
+  "exec": "node --loader ts-node/esm src/init.ts"
 }
