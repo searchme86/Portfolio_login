@@ -8,7 +8,7 @@ export const connectToDB = async (callback: (error?: Error) => void) => {
       callback();
       mongoose.set('strictQuery', true);
       console.log(
-        `Mongoose connection SuccessFul, host: ${DBConnected.connection.host}`
+        `Mongoose connection SuccessFull, host: ${DBConnected.connection.host}`
       );
     }
   } catch (error) {
