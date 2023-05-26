@@ -5,10 +5,10 @@ import Moment from 'react-moment';
 function PeopleRenderer(props: IPerson) {
   const { firstName, lastName, birthday, eyeColor } = props;
   return (
-    <div className="p-3 col-12">
-      <div className="card">
-        <div className="card-body">
-          <h3 className="card-title">
+    <div className="">
+      <div className="">
+        <div className="">
+          <h3 className="">
             {firstName} {lastName}
           </h3>
           <ul>
